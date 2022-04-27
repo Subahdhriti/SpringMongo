@@ -1,10 +1,10 @@
-package com.springmongowrapper.getOffers;
+package com.springmongo.wrappergetOffers;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GetOffersApplicationTests {
+class WrapperGetOffersApplicationTests {
 
 	@Test
 	void contextLoads() {
