@@ -1,0 +1,15 @@
+# =====================================
+# = APPLICATION CONFIGURATIONS
+# =====================================
+spring:
+  application:
+    name: TDL-INTEGRATION-OFFERS-FUNC-POPULAR-OFFER-MS
+
+  profiles:
+    active : local
+
+  cloud:
+    config:
+      uri: http://configserver.dev-integration.tatadigital.com
+      label: development
+      fail-fast: true
